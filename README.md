@@ -1,5 +1,5 @@
 # 2026_CSE391_66ANM2-CNTT2_DoQuyenAnh
-👋 Xin chào, mình là Nguyễn Đình Mạnh Tường
+👋 Xin chào, mình là Đỗ Quyền Anh
 🎓 Thông tin cá nhân
 Họ và tên: Đỗ Quyền Anh
 Trường: Đại học Thuỷ Lợi
