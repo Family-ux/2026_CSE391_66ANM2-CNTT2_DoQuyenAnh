@@ -1,0 +1,106 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+/* WRAPPER (KHUNG XANH) */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 60px;
+  border: 3px solid #7cc6e6;
+  background: #f9f9f9;
+}
+
+/* TIÊU ĐỀ CHÍNH */
+.wrapper h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 60px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* CONTAINER */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* CARD BÊN TRÁI */
+.card {
+  width: 38%;
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.card p {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+/* AUTHOR */
+.author strong {
+  display: block;
+  font-size: 14px;
+}
+
+.author span {
+  font-size: 13px;
+  color: #7cc6e6;
+}
+
+/* NỘI DUNG BÊN PHẢI */
+.content-text {
+  width: 55%;
+}
+
+.content-text p {
+  margin-bottom: 25px;
+  line-height: 1.8;
+  color: #555;
+  font-size: 15px;
+}
+
+/* ĐOẠN IN ĐẬM */
+.bold-text {
+  font-weight: 600;
+  color: #333;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card,
+  .content-text {
+    width: 100%;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+}
