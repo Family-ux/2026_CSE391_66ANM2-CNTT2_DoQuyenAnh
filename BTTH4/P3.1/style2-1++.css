@@ -1,0 +1,16 @@
+.error{
+    color: red ;
+    font-size: 14px;
+}
+#strength-bar{
+    width: 0%;
+    height: 6px;
+    background: gray;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+#strength-text{
+    font-size: 13px;
+    margin-top: 3px;
+}

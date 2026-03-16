@@ -1,0 +1,12 @@
+.step{
+    display:none;
+}
+
+#step1{
+    display:block;
+}
+
+#progress{
+    font-weight:bold;
+    margin-bottom:20px;
+}

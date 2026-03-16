@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Danh sách học sinh</h1>
+    <input type="text" id = "name"placeholder="Họ và tên">
+    <input type="number" id = "score"placeholder="Điểm" min = 0 max = 10>
+    <button id = "btn">Thêm</button><br>
+    <input type="text" id = "ten" placeholder="Tìm kiếm tên">
+    <select id = "filterRank">
+        <option value="All">Tất cả</option>
+        <option value="Giỏi">Giỏi</option>
+        <option value="Khá">Khá</option>
+        <option value="Trung bình">Trung bình</option>
+        <option value="Yếu">Yếu</option>
+    </select>
+    <table>
+        <thead>
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th id = "sortScore" style=cursor:pointer>Điểm<span id="sortIcon">▲ / ▼</span></th>
+            <th>Xếp loại</th>
+            <th>Thao tác</th>
+        </thead>
+        <tbody id = "body"></tbody>
+    </table>
+    <script src = "main2.js"></script>
+    <p id = "tinh"></p>
+</body>
+</html>
